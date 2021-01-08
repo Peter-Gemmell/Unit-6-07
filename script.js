@@ -14,10 +14,10 @@ function math () {
   for (secondnum = document.getElementById('secondnum').value; secondnum > 0; secondnum--) {
     // result is start at 0+ firtnum then keeps going..
     result = result + firstnum
-    }
-    // and when we get through the loop as many times as the second input
-    if (secondnum === 0) {
-      // alert all of the loops together combined
-      alert (result)
-}
+  }
+  // and when we get through the loop as many times as the second input
+  if (secondnum === 0) {
+    // alert all of the loops together combined
+    alert(result)
+  }
 }
